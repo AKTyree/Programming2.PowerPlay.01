@@ -17,6 +17,7 @@ struct Object
 	int strength{ std::max(5, (int)determineStrength(e))};
 	int health{ std::max(10, (int)determineHealth(e)) };
 	bool isDead{ false };
+	//add comment
 };
 
 void loadMonsters(std::vector<Object>& enemies);
